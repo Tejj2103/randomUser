@@ -1,0 +1,78 @@
+body {
+  /* padding: 50px; */
+   margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #8E0E00;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #1F1C18, #8E0E00);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #1F1C18, #8E0E00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+
+.topnav {
+  overflow: hidden;
+  background-color: red;
+  border-radius: 12px;
+  margin: 0px 50px 0px 50px;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  width: 100px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color:white;
+  color: red;
+}
+
+h1{
+  color: red;
+  margin-left: 50px;
+}
+
+p{
+  color: white;
+   margin-left: 50px;
+}
+
+.container{
+  margin-left: 50px;
+}
+
+button[type='submit']{
+  outline: none;
+  border-radius: 8px;
+  background-color: red;
+  color: white;
+  width: 100px;
+  height: 35px;
+}
+
+button[type='submit']:hover{
+  background-color: white;
+  color: red;
+}
+
+.footerWrap {
+    width:100%;
+    position:fixed;
+    bottom: 0px;
+}
+.footer {
+    margin: auto;
+    width: 400px;
+    text-align:center;
+    padding:10px;
+    color:#ffffff;
+}

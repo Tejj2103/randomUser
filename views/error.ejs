@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link rel="shortcut icon" href="#" />
+</head>
+
+
+<body>
+    <%- include('header'); -%>
+
+    <div>
+        <p>Random user info fetching from <a href="https://randomuser.me/" target="_blank">Random User</a> and
+            displaying.
+        </p>
+        <h1><%= error.status %> <%= message %></h1>
+        <!-- <pre><%= error.stack %></pre> -->
+    </div>
+    <footer><%- include('footer'); -%></footer>
+</body>
+
+</html>
