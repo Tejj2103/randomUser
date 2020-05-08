@@ -13,6 +13,8 @@ const getUserData = async () => {
             maleRes.push(male);
         })
         return maleRes;
+    }).catch((e) => {
+        return e;
     });
     var femaleData = await User.find({ gender: "female" }).then((data) => {
         var femaleRes = [];
@@ -24,6 +26,8 @@ const getUserData = async () => {
             femaleRes.push(female);
         })
         return femaleRes;
+    }).catch((e) => {
+        return e;
     });
     var resultMale = maleUsers(maleData);
     var resultFemale = femaleUsers(femaleData);
